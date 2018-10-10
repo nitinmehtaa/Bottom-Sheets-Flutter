@@ -1,8 +1,21 @@
-# bottom_sheets
+# Bottom Sheets Flutter
 
-A new Flutter application.
+Custom Bottom Sheets built in Flutter
 
-## Getting Started
+## Compatibility
+
+- Android
+- iOS
+
+## Author
+
+Written by ME. You can [find me on Twitter](https://twitter.com/nitinmehta19).
+
+## Contributing
+
+Thank you for your interest in the project! Contributions are always welcome.
+
+## Getting started with flutter
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
