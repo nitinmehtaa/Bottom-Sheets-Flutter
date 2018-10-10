@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-Widget WelcomeCard() {
+Widget WelcomeCard(BuildContext context) {
   return Container(
       padding: new EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 10.0),
       child: new Container(
@@ -55,12 +55,13 @@ Widget WelcomeCard() {
                 minWidth: 290.0,
                 height: 42.0,
                 child: new RaisedButton(
+                    color: Colors.blue,
                     shape: new RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(10.0)),
-                    onPressed: null,
+                    onPressed: () {
+                      Navigator.pop(context); //Navigate to according your need
+                    },
                     padding: new EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),
-                    color: Colors.blue,
-                    disabledColor: Colors.blue,
                     child: new Text('Configure',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
@@ -73,7 +74,7 @@ class Welcome_sheet1 {
     showModalBottomSheet(
         context: context,
         builder: (BuildContext context) {
-          return WelcomeCard();
+          return WelcomeCard(context);
         });
   }
 }
