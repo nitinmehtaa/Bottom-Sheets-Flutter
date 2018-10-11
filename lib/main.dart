@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Welcome_sheet1.dart';
+import 'Welcome_sheet2.dart';
 
 void main() => runApp(new BottomSheetSample());
 
@@ -29,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Welcome_sheet1 modal = new Welcome_sheet1();
+    Welcome_sheet2 modal2 = new Welcome_sheet2();
     return new Scaffold(
         backgroundColor: Colors.white,
         appBar: new AppBar(
@@ -47,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: new Text('Welcome Sheet 1'),
               ),
               new RaisedButton(
-                onPressed: () => modal.mainBottomSheet(context),
+                onPressed: () => modal2.mainBottomSheet2(context),
                 color: Colors.indigo[400],
                 child: new Text('Welcome Sheet 2'),
               ),
