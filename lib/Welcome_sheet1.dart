@@ -70,7 +70,7 @@ Widget WelcomeCard(BuildContext context) {
 }
 
 class Welcome_sheet1 {
-  mainBottomSheet(BuildContext context) {
+  mainBottomSheet1(BuildContext context) {
     showModalBottomSheet(
         context: context,
         builder: (BuildContext context) {

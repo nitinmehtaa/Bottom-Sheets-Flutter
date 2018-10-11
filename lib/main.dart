@@ -29,8 +29,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    Welcome_sheet1 modal = new Welcome_sheet1();
+    Welcome_sheet1 modal1 = new Welcome_sheet1();
     Welcome_sheet2 modal2 = new Welcome_sheet2();
+
     return new Scaffold(
         backgroundColor: Colors.white,
         appBar: new AppBar(
@@ -44,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             scrollDirection: Axis.vertical,
             children: <Widget>[
               new RaisedButton(
-                onPressed: () => modal.mainBottomSheet(context),
+                onPressed: () => modal1.mainBottomSheet1(context),
                 color: Colors.red[400],
                 child: new Text('Welcome Sheet 1'),
               ),
@@ -54,17 +55,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: new Text('Welcome Sheet 2'),
               ),
               new RaisedButton(
-                onPressed: () => modal.mainBottomSheet(context),
-                color: Colors.pink[400],
-                child: new Text('Sheet with text fields'),
-              ),
-              new RaisedButton(
-                onPressed: () => modal.mainBottomSheet(context),
+                onPressed: () => modal1.mainBottomSheet1(context),
                 color: Colors.amber[400],
                 child: new Text('Sheet with buttons'),
               ),
               new RaisedButton(
-                onPressed: () => modal.mainBottomSheet(context),
+                onPressed: () => modal1.mainBottomSheet1(context),
                 color: Colors.blue[400],
                 child: new Text('Sheet with PageView controllers'),
               ),

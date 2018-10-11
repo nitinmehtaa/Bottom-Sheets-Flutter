@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 Widget WelcomeCard(BuildContext context) {
   return Container(
@@ -35,7 +34,7 @@ Widget WelcomeCard(BuildContext context) {
             Padding(
                 padding: new EdgeInsets.fromLTRB(10.0, 3.0, 10.0, 5.0),
                 child: new Text(
-                  'You will receive notifications for updates',
+                  'Do you want to receive notification updates?',
                   softWrap: true,
                   textAlign: TextAlign.center,
                   overflow: TextOverflow.ellipsis,
