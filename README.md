@@ -4,8 +4,7 @@ Custom Bottom Sheets built in Flutter
 
 ## Compatibility
 
-- Android
-- iOS
+- Android (As of now)
 
 ## Author
 
