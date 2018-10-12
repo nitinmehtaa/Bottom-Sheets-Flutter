@@ -65,7 +65,8 @@ Widget WelcomeCard(BuildContext context) {
                     child: new Text('Configure',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
-                            fontSize: 20.0, color: Colors.white)))),
+                            fontSize: 20.0, color: Colors.white)))
+                            ),
           ])));
 }
 

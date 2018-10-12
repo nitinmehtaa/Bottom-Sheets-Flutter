@@ -49,18 +49,83 @@ Widget WelcomeCard(BuildContext context) {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  borderSide: BorderSide(color: Colors.white),
+                  borderSide: BorderSide(color: Colors.blue),
                   shape: new RoundedRectangleBorder(
                       borderRadius: new BorderRadius.circular(10.0)),
                   child: new Text(
-                    '🐶 Dog',
+                    '🐶 Dogs',
                     textAlign: TextAlign.center,
                     style: new TextStyle(fontSize: 20.0, color: Colors.blue),
                   ),
                 ),
               ),
             ),
-          ])));
+            new Padding(
+              padding: new EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 3.0),
+              child: new SizedBox(
+                width: 290.0,
+                height: 42.0,
+                child: new OutlineButton(
+                  disabledBorderColor: Colors.blue,
+                  highlightedBorderColor: Colors.blue,
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  borderSide: BorderSide(color: Colors.blue),
+                  shape: new RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(10.0)),
+                  child: new Text(
+                    '🐱 Cats',
+                    textAlign: TextAlign.center,
+                    style: new TextStyle(fontSize: 20.0, color: Colors.blue),
+                  ),
+                ),
+              ),
+            ),
+            new Padding(
+              padding: new EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 3.0),
+              child: new SizedBox(
+                width: 290.0,
+                height: 42.0,
+                child: new OutlineButton(
+                  disabledBorderColor: Colors.blue,
+                  highlightedBorderColor: Colors.blue,
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  borderSide: BorderSide(color: Colors.blue),
+                  shape: new RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(10.0)),
+                  child: new Text(
+                    '🐰 Rabbit',
+                    textAlign: TextAlign.center,
+                    style: new TextStyle(fontSize: 20.0, color: Colors.blue),
+                  ),
+                ),
+              ),
+            ),
+            Padding(padding: new EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 3.0),
+            child: new ButtonTheme(
+                textTheme: ButtonTextTheme.normal,
+                minWidth: 290.0,
+                height: 42.0,
+                child: new RaisedButton(
+                    color: Colors.blue,
+                    shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(10.0)),
+                    onPressed: () {
+                      Navigator.pop(context); //Navigate to according your need
+                    },
+                    padding: new EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),
+                    child: new Text('Configure',
+                        textAlign: TextAlign.center,
+                        style: new TextStyle(
+                            fontSize: 20.0, color: Colors.white)))
+                            ),
+            )
+             
+          ]
+          )));
 }
 
 class SheetWithButtons {
