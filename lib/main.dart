@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'Welcome_sheet1.dart';
 import 'Welcome_sheet2.dart';
 import 'SheetWithButtons.dart';
+import 'SheetWithHorizontalItems.dart';
 
 void main() => runApp(new BottomSheetSample());
 
@@ -33,6 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
     Welcome_sheet1 modal1 = new Welcome_sheet1();
     Welcome_sheet2 modal2 = new Welcome_sheet2();
     SheetWithButtons sheetWithButtons = new SheetWithButtons();
+    Sheet_with_horizontal_items sheet_with_horizontal_items =
+        new Sheet_with_horizontal_items();
 
     return new Scaffold(
         backgroundColor: Colors.white,
@@ -62,7 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: new Text('Sheet with buttons'),
               ),
               new RaisedButton(
-                onPressed: () => modal1.mainBottomSheet1(context),
+                onPressed: () =>
+                    sheet_with_horizontal_items.mainBottomSheet4(context),
                 color: Colors.blue[400],
                 child: new Text('Sheet with PageView controllers'),
               ),
