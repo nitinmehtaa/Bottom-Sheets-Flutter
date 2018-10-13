@@ -31,7 +31,8 @@ Widget WelcomeCard(BuildContext context) {
               height: 150.0,
               imageUrl:
                   "https://assets-cdn.github.com/images/icons/emoji/unicode/1f64b.png?v5",
-              placeholder: new CircularProgressIndicator(),
+              placeholder: new Image.asset('images/placeholder_image.jpg',
+                  width: 200.0, height: 150.0, alignment: Alignment.center),
               errorWidget: new Icon(
                 Icons.error_outline,
                 color: Colors.red,
@@ -65,8 +66,7 @@ Widget WelcomeCard(BuildContext context) {
                     child: new Text('Configure',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
-                            fontSize: 20.0, color: Colors.white)))
-                            ),
+                            fontSize: 20.0, color: Colors.white)))),
           ])));
 }
 

@@ -104,7 +104,7 @@ Widget WelcomeCard(BuildContext context) {
                 ),
               ),
             ),
-            Padding(padding: new EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 3.0),
+            Padding(padding: new EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
             child: new ButtonTheme(
                 textTheme: ButtonTextTheme.normal,
                 minWidth: 290.0,
@@ -117,7 +117,7 @@ Widget WelcomeCard(BuildContext context) {
                       Navigator.pop(context); //Navigate to according your need
                     },
                     padding: new EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),
-                    child: new Text('Configure',
+                    child: new Text('Select',
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                             fontSize: 20.0, color: Colors.white)))
