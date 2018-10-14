@@ -2,7 +2,7 @@
 
 Custom Bottom Sheets built in Flutter
 
-<iframe src="https://giphy.com/embed/ljtoG4awQRqugGAa4T" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ljtoG4awQRqugGAa4T">via GIPHY</a></p>
+<a href="https://imgflip.com/gif/2k35ds"><img src="https://i.imgflip.com/2k35ds.gif" title="made at imgflip.com"/></a>
 
 ## Compatibility
 
