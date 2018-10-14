@@ -2,7 +2,7 @@
 
 Custom Bottom Sheets built in Flutter
 
-![Demo Screenshots](https://media.giphy.com/media/ljtoG4awQRqugGAa4T/giphy.gif)
+<a href=""><img src="https://media.giphy.com/media/ljtoG4awQRqugGAa4T/giphy.gif" title=""/></a>
 
 ## Compatibility
 
