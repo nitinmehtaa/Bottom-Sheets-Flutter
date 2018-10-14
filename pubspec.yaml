@@ -15,4 +15,18 @@ flutter:
   uses-material-design: true
   assets:
     - images/emoji1.png
+    - images/emoji2.png
+    - images/emoji3.png
+    - images/emoji4.png
+    - images/emoji5.png
+    - images/emoji6.png
+    - images/emoji7.png
+    - images/emoji8.png
+    - images/emoji9.png
+    - images/emoji10.png
+    - images/emoji11.png
+    - images/emoji12.png
+    - images/emoji13.png
+    - images/emoji14.png
+    - images/emoji15.png
     - images/placeholder_image.jpg
